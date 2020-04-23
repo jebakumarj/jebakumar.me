@@ -1,4 +1,4 @@
-/*for greater than or equal to 600px screen*/
+/*for greater than or equal to 600px screen - for desktop*/
 @media screen and (min-width: 600px) {
     body{
         background-color: #dcdcdc;
@@ -60,9 +60,20 @@
     li{
         margin: 5px;
     }
+
+    #social-icon a{
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #social-icon img{
+        height: auto;
+        width: 5%;
+        margin: 5px;
+    }
 }
 
-/* for 0px to 599px screen*/
+/* for 0px to 599px screen - for mobile*/
 @media screen and (max-width: 600px) {
     body{
         background-color: #dcdcdc;
@@ -117,13 +128,23 @@
     }
 
     ul{
-        list-style: "-";
         padding-bottom: 10px;
     }
 
     li{
         margin: 5px;
         text-align: left;
+    }
+
+    #social-icon a{
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #social-icon img{
+        height: auto;
+        width: 5%;
+        margin: 5px;
     }
 
     #blank{
