@@ -16,6 +16,7 @@
         margin-left: 2%;
         margin-top: 2%;
         box-shadow: 6px 6px 15px gray;
+        border-radius: 15px;
     }
 
     #contentArea div{
@@ -92,6 +93,7 @@
         margin-left: 3%;
         margin-top: 3%;
         box-shadow: 6px 6px 15px gray;
+        border-radius: 10px;
     }
 
     #about{
